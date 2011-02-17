@@ -1,4 +1,4 @@
-package com.activesphere.hello;
+package com.activesphere.racetimer;
 
 import android.os.Bundle;
 
