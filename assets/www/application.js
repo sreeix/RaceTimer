@@ -23,7 +23,6 @@ var finishRider = function(){
     }else {
       navigator.notification.alert("PUT... "+ new Date().toString());
       $.post("http://racetimer.heroku.com/rider/"+riderNumber+".json", {end_time: (new Date().toString())} ,function(data) {
-        
         navigator.notification.alert("Time taken ... "+ data.time_taken + " seconds");
       });
     }
