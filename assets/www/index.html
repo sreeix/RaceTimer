@@ -8,18 +8,16 @@
 </head>
 <body>
 	<div> Rider Number
-		<input type="number" name="number" id="rider_number" />  
+        <input type="number" name="number" id="rider_number" />
 	</div>
 
 	<div id ="submit">  
-		<button class="start btn" onclick="startRider();">Start</button> 
-		<button class="stop btn" onclick="finishRider();">Stop</button> 
+		<button class="start btn" onclick="rider.start();">Start</button> 
+		<button class="stop btn" onclick="rider.finish();">Stop</button> 
 	</div> 
-	
 	<div id ="synch">  
-		<a href="#" class="sync btn" onclick="synch();">Synch</a> 
-		
-	</div> 
+        <a href="#" class="sync btn" onclick="rider.synch();">Synch</a> 
+    </div> 
 
 </body>
 </html>
